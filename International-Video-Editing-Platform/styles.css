@@ -1,0 +1,45 @@
+/* ==========================================
+   CUSTOM UI DESIGN
+========================================== */
+
+#hero {
+    text-align: center;
+    padding: 32px 18px 24px;
+    margin-bottom: 18px;
+    border-radius: 18px;
+    background: linear-gradient(120deg, #171a35, #34376d, #25284b);
+    border: 1px solid #51568e;
+}
+
+#hero h1 {
+    color: white;
+    font-size: clamp(24px, 4vw, 38px);
+    font-weight: 850;
+    letter-spacing: -1px;
+    margin: 0 0 12px 0;
+}
+
+#synthetic-label {
+    display: inline-block;
+    font-size: 10px;
+    font-weight: 900;
+    letter-spacing: 2px;
+    color: #c9caff;
+    border: 1px solid #777db9;
+    border-radius: 30px;
+    padding: 6px 13px;
+    background: rgba(255,255,255,0.08);
+}
+
+#hero p {
+    color: #d4d6f5;
+    font-size: 13px;
+    margin-top: 12px;
+}
+
+.action-panel {
+    border: 1px solid var(--border-color-primary);
+    border-radius: 14px;
+    padding: 15px;
+    margin-top: 12px;
+}
